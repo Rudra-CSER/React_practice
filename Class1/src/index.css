@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'helvetica neue';
+background-color: #17191B;
+}
+html,
+body{
+height: 100%;
+width:100%;
+}
+.nav{
+    background-color: #24CFA6;
+}
+.footer{
+    background-color: #24cfa779;
+}
+
