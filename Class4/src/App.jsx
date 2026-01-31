@@ -25,7 +25,8 @@ const App = () => {
           onChange={(e) => setuserName(e.target.value)}
         />
 
-        <button>Submit</button>
+        <button>Submit</button> 
+        <button>Submit2</button>
       </form>
     </div>
   );
