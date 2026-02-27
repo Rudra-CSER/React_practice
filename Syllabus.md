@@ -10,8 +10,8 @@ Topics TO be Covered
 8. Tailwind CSS ✅
 9. Function calling in React ✅
 10. useState Hook ✅
-11. From Handing 
-12. Two Way Data Binding
+11. From Handing ✅
+12. Two Way Data Binding ✅
 13. Project - Basic Todo App 
 14. Project - Todo Through Multiple Components
 15. Local Storage
