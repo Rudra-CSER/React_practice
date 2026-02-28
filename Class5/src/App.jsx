@@ -8,6 +8,10 @@ const App = () => {
  const [description, setDescription] = useState('')
  const [allUsers, setallUsers] = useState([])
    
+//  const localData = JSON.parse(localStorage.getItem('all-users') )|| []
+//  console.log(localData);
+ 
+
 const submitHandler = (e) => {
   e.preventDefault()
  console.log(`from sub ${userName} + ${imageURL} + ${phoneNo} + ${description}`);
@@ -21,7 +25,7 @@ const submitHandler = (e) => {
   description
 })
  setallUsers(OldUser)
-
+localStorage.setItem('all-users', JSON.stringify(OldUser))
  setuserName('')
  setImageURL('')
  setPhoneNo('')
@@ -33,6 +37,8 @@ const deleteHandler = (idx) => {
  const copyUser = [...allUsers]
   copyUser.splice(idx,1)
   setallUsers(copyUser)
+localStorage.setItem('all-users', JSON.stringify(copyUser))
+
 }
 
   return (
